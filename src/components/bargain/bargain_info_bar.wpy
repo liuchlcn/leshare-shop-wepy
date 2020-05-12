@@ -88,7 +88,7 @@
   @connect({
     member: store.get('member')
   })
-  export default class  BargainInfoBar extends wepy.component {
+  export default class BargainInfoBar extends wepy.component {
     props = {
       detail: {}
     };

@@ -15,7 +15,7 @@
       display: true,
       company: '乐享启创提供技术支持',
       copyright: 'Copyright © 2018 leshare.shop',
-      version: null,
+      version: null
     };
     onLoad () {
       this.version = wepy.$instance.globalData.version;

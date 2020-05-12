@@ -35,7 +35,6 @@
 
 <script>
   import wepy from 'wepy';
-  import { connect } from 'wepy-redux';
 
   export default class OrderBar extends wepy.component {
     props = {
@@ -46,7 +45,7 @@
     methods = {
       list(status) {
         this.$root.$navigate(`/pages/order/list?status=${status}`);
-      },
+      }
     };
     events = {};
   }
